@@ -1,0 +1,52 @@
+p {
+	margin: 0 0 24px;
+}
+
+dfn, cite, em, i {
+	font-style: italic;
+}
+
+blockquote {
+	margin: 0 0 24px 0;
+	padding: 10px 24px;
+	font-style: italic;
+	border-left: 5px solid $color__link;
+	p {
+		padding: 10px 0;
+		margin: 0;
+	}
+}
+
+address {
+	margin: 0 0 24px;
+}
+
+pre {
+	background: $color__background-pre;
+	font-family: $font__pre;
+	@include font-size(0.9375);
+	line-height: $font__line-height-pre;
+	margin-bottom: 24px;
+	max-width: 100%;
+	overflow: auto;
+	padding: 30px;
+}
+
+code, kbd, tt, var {
+	font-family: $font__code;
+	@include font-size(0.9375);
+}
+
+abbr, acronym {
+	border-bottom: 1px dotted $color__border-abbr;
+	cursor: help;
+}
+
+mark, ins {
+	background: $color__background-ins;
+	text-decoration: none;
+}
+
+big {
+	font-size: 125%;
+}

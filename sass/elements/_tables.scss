@@ -1,0 +1,32 @@
+table {
+	margin: 0 0 30px;
+	width: 100%;
+	caption {
+		background: $color__background-hr;
+		padding: 10px 20px;
+		text-align: left;
+		font-weight: bold;
+		color: $color__secondary;
+	}
+	th,
+	td {
+		padding: 7px 10px;
+		text-align: left;
+	}
+	th {
+		@include font-size(.75);
+		color: $color__text-alt;
+	}
+	tr {
+		border-top: 1px solid $color__background-hr;
+	}
+	thead {
+		tr {
+			border-top: none;
+			border-bottom: 2px solid $color__background-hr;
+			th {
+				padding-top: 15px
+			}
+		}
+	}
+}

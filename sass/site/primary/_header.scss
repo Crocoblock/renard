@@ -1,0 +1,180 @@
+.site-header {
+	position: relative;
+	z-index: 99;
+	@include box-shadow();
+}
+
+.site-branding {
+	background: $color__secondary;
+}
+
+.site-logo-wrap {
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px 20px;
+	text-align: center;
+	background: rgba(0,0,0,.5);
+	@media ( max-width: 480px ) {
+		display: block;
+		margin: 0 -15px;
+	}
+}
+
+.site-title {
+	@include font-size(3.125);
+	line-height: 1;
+	margin: 0;
+	font-family: 'Yesteryear', cursive;
+	font-weight: normal;
+	a {
+		color: $color__link;
+		text-decoration: none;
+	}
+}
+
+.site-description {
+	@include font-size(.75);
+	line-height: 1.2;
+	color: rgba(255,255,255,.4);
+}
+
+.site-nav {
+	background: #fff;
+}
+
+.follow-list {
+	&-wrap {
+		text-align: right;
+		font-size: 0;
+		line-height: 0;
+		padding: 22px 0 0 0;
+		@media ( max-width: 480px ) {
+			padding: 10px 0;
+			text-align: center;
+		}
+		a.set-menu_link {
+			@include font-size(1);
+			line-height: 1;
+		}
+	}
+	&-items {
+		margin: 0;
+		padding: 0;
+		.menu-item {
+			display: inline-block;
+			margin: 0 0 0 10px;
+			@media ( max-width: 767px ) {
+				margin: 0 0 0 3px;
+			}
+			a {
+				display: block;
+				width: 40px;
+				height: 40px;
+				text-align: center;
+				border-radius: 20px;
+				color: rgba(255,255,255,.5);
+				background: rgba(0,0,0,.3);
+				text-decoration: none;
+				position: relative;
+				@media ( max-width: 599px ) {
+					width: 30px;
+					height: 30px;
+					line-height: 30px;
+					font-size: 14px;
+					text-align: center;
+					border-radius: 20px;
+				}
+				&:after {
+					transition: none;
+					content: "";
+					box-shadow: 0 0 0 rgba(255,255,255,1);
+					left: 0;
+					top: 0;
+					right: 0;
+					bottom: 0;
+					position: absolute;
+					border-radius: 20px;
+					visibility: hidden;
+				}
+				&:hover {
+					&:after {
+						transition: all 200ms linear;
+						box-shadow: 0 0 40px rgba(255,255,255,0);
+						visibility: visible;
+					}
+				}
+				&:hover,
+				&:focus,
+				&:active,
+				&:visited {
+					color: rgba(255,255,255,1);
+				}
+
+				&[href*="codepen.io"]::before         { content: '\f1cb'; }
+				&[href*="digg.com"]::before           { content: '\f1a6'; }
+				&[href*="dribbble.com"]::before       { content: '\f17d'; }
+				&[href*="dropbox.com"]::before        { content: '\f16b'; }
+				&[href*="facebook.com"]::before       { content: '\f09a'; }
+				&[href*="flickr.com"]::before         { content: '\f16e'; }
+				&[href*="plus.google.com"]::before    { content: '\f0d5'; }
+				&[href*="github.com"]::before         { content: '\f09b'; }
+				&[href*="instagram.com"]::before      { content: '\f16d'; }
+				&[href*="linkedin.com"]::before       { content: '\f0e1'; }
+				&[href*="pinterest.com"]::before      { content: '\f0d2'; }
+				&[href*="getpocket.com"]::before      { content: '\f265'; }
+				&[href*="reddit.com"]::before         { content: '\f1a1'; }
+				&[href*="skype.com"]::before,
+				&[href*="skype:"]::before             { content: '\f17e'; }
+				&[href*="stumbleupon.com"]::before    { content: '\f1a4'; }
+				&[href*="tumblr.com"]::before         { content: '\f173'; }
+				&[href*="twitter.com"]::before        { content: '\f099'; }
+				&[href*="vimeo.com"]::before          { content: '\f27d'; }
+				&[href*="wordpress.org"]::before,
+				&[href*="wordpress.com"]::before      { content: '\f19a'; }
+				&[href*="youtube.com"]::before        { content: '\f167'; }
+				&[href*="amazon.com"]::before         { content: '\f270'; }
+				&[href*="tripadvisor"]::before        { content: '\f262'; }
+				&[href*="ycombinator.com"]::before    { content: '\f23b'; }
+				&[href*="xing.com"]::before           { content: '\f168'; }
+				&[href*="yahoo."]::before             { content: '\f19e'; }
+				&[href*="vine.co"]::before            { content: '\f1ca'; }
+				&[href*="weibo.com"]::before          { content: '\f18a'; }
+				&[href*="trello.com"]::before         { content: '\f181'; }
+				&[href*="steampowered.com"]::before   { content: '\f1b6'; }
+				&[href*="soundcloud.com"]::before     { content: '\f1be'; }
+				&[href*="spotify.com"]::before        { content: '\f1bc'; }
+				&[href*="stackexchange.com"]::before  { content: '\f18d'; }
+				&[href*="stackoverflow.com"]::before  { content: '\f16c'; }
+				&[href*="slideshare.net"]::before     { content: '\f1e7'; }
+				&[href*="slack.com"]::before          { content: '\f198'; }
+				&[href*="skyatlas.com"]::before       { content: '\f216'; }
+				&[href*="last.fm"]::before            { content: '\f202'; }
+				&[href*="jsfiddle.net"]::before       { content: '\f1cc'; }
+				&[href*="behance.net"]::before        { content: '\f1b4'; }
+				&[href*="bitbucket.org"]::before      { content: '\f171'; }
+				&[href*="codepen.io"]::before         { content: '\f1cb'; }
+				&[href*="codiepie.com"]::before       { content: '\f284'; }
+				&[href*="connectdevelop.com"]::before { content: '\f20e'; }
+				&[href*="dashcube.com"]::before       { content: '\f210'; }
+				&[href*="contao.org"]::before         { content: '\f26d'; }
+				&[href*="delicious.com"]::before      { content: '\f1a5'; }
+				&[href*="deviantart.com"]::before     { content: '\f1bd'; }
+				&[href*="vk.com"]::before             { content: '\f189'; }
+
+				&::before {
+					font-family: FontAwesome;
+					line-height: 40px;
+					font-size: 18px;
+					position: absolute;
+					left: 0;
+					top: 0;
+					display: block;
+					width: 40px;
+					height: 40px;
+					margin: auto;
+					border-radius: 50%;
+				}
+			}
+		}
+	}
+}

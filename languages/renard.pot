@@ -1,0 +1,406 @@
+# Copyright (C) 2015 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Renard\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2016-06-26 17:16+0200\n"
+"PO-Revision-Date: 2016-06-26 17:16+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-KeywordsList: __;_e;_x;esc_attr_e;_n;esc_html_e;esc_html__;"
+"esc_attr__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ _s
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+# @ _s
+#: 404.php:22
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+# @ _s
+#: comments.php:40 comments.php:62
+msgid "Comment navigation"
+msgstr ""
+
+# @ _s
+#: comments.php:43 comments.php:65
+msgid "Older Comments"
+msgstr ""
+
+# @ _s
+#: comments.php:44 comments.php:66
+msgid "Newer Comments"
+msgstr ""
+
+# @ _s
+#: comments.php:78
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:82
+msgid "Comment*"
+msgstr ""
+
+#: footer.php:29
+msgid "http://wordpress.org/"
+msgstr ""
+
+# @ _s
+#: footer.php:29
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: footer.php:33
+#, php-format
+msgid "Theme %1$s by <a href=\"%2$s\" rel=\"nofollow\">Tefox</a>."
+msgstr ""
+
+# @ _s
+#: functions.php:50 functions.php:88 header.php:49
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:89
+msgid "Social Menu"
+msgstr ""
+
+# @ _s
+#: functions.php:115
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:125
+msgid "Footer Sidebar 1"
+msgstr ""
+
+#: functions.php:135
+msgid "Footer Sidebar 2"
+msgstr ""
+
+#: functions.php:145
+msgid "Footer Sidebar 3"
+msgstr ""
+
+#: functions.php:154
+msgid "Footer Sidebar 4"
+msgstr ""
+
+# @ _s
+#: header.php:25
+msgid "Skip to content"
+msgstr ""
+
+#: inc/customizer.php:42
+msgid "Slider"
+msgstr ""
+
+#: inc/customizer.php:53
+msgid "Enable/disable slider"
+msgstr ""
+
+#: inc/customizer.php:67
+msgid "Slider visibility"
+msgstr ""
+
+#: inc/customizer.php:73
+msgid "Only on Front page"
+msgstr ""
+
+#: inc/customizer.php:74
+msgid "On all pages"
+msgstr ""
+
+#: inc/customizer.php:85
+msgid "Get slides from"
+msgstr ""
+
+#: inc/customizer.php:93
+msgid "Recent Posts (Default)"
+msgstr ""
+
+#: inc/customizer.php:94
+msgid "Sticky Posts (Recommended)"
+msgstr ""
+
+#: inc/customizer.php:95
+msgid "Specific Category"
+msgstr ""
+
+#: inc/customizer.php:107
+msgid "Category slug to get slides from (only if Specific Category selected)"
+msgstr ""
+
+#: inc/customizer.php:121
+msgid "Slides number to show"
+msgstr ""
+
+#: inc/customizer.php:140
+msgid "Show/hide slider banner"
+msgstr ""
+
+#: inc/customizer.php:149 inc/customizer.php:276 inc/template-actions.php:98
+msgid "Read"
+msgstr ""
+
+#: inc/customizer.php:154
+msgid "Banner read more button text"
+msgstr ""
+
+#: inc/customizer.php:168
+msgid "Show/hide control arrows"
+msgstr ""
+
+#: inc/customizer.php:182
+msgid "Show/hide pager control"
+msgstr ""
+
+#: inc/customizer.php:196
+msgid "Select animation type"
+msgstr ""
+
+#: inc/customizer.php:202
+msgid "Fade"
+msgstr ""
+
+#: inc/customizer.php:203
+msgid "Slide"
+msgstr ""
+
+#: inc/customizer.php:210
+msgid "Blog"
+msgstr ""
+
+#: inc/customizer.php:221
+msgid "Blog content shows:"
+msgstr ""
+
+#: inc/customizer.php:227
+msgid "Only excerpt"
+msgstr ""
+
+#: inc/customizer.php:228
+msgid "Full content"
+msgstr ""
+
+#: inc/customizer.php:239
+msgid "Loop page: show featured image"
+msgstr ""
+
+#: inc/customizer.php:253
+msgid "Single page: show featured image"
+msgstr ""
+
+#: inc/customizer.php:267
+msgid "Loop page: show read more button"
+msgstr ""
+
+#: inc/customizer.php:281
+msgid "Loop page: read more button text"
+msgstr ""
+
+#: inc/customizer.php:295
+msgid "Sidebar position"
+msgstr ""
+
+#: inc/customizer.php:301
+msgid "Right"
+msgstr ""
+
+#: inc/customizer.php:302
+msgid "Left"
+msgstr ""
+
+#: inc/customizer.php:309
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer.php:320
+msgid "Set custom copyright text"
+msgstr ""
+
+#: inc/customizer.php:330
+msgid "About box"
+msgstr ""
+
+#: inc/customizer.php:341
+msgid "Enable About box in sidebar"
+msgstr ""
+
+#: inc/customizer.php:356
+msgid "About Image"
+msgstr ""
+
+#: inc/customizer.php:364 inc/template-actions.php:274
+msgid "Hello! And welcome to my personal website!"
+msgstr ""
+
+#: inc/customizer.php:369
+msgid "Set about box message text"
+msgstr ""
+
+#: inc/customizer.php:379
+msgid "Follow box in header"
+msgstr ""
+
+#: inc/customizer.php:389
+msgid "Enable Follow box in sidebar"
+msgstr ""
+
+#: inc/extras.php:24 inc/extras.php:31
+msgid "on"
+msgstr ""
+
+#: inc/extras.php:36
+msgid "latin,latin-ext"
+msgstr ""
+
+#: inc/extras.php:115
+msgid "Pingback:"
+msgstr ""
+
+#: inc/extras.php:115 inc/template-tags.php:202
+msgid "Edit"
+msgstr ""
+
+#: inc/extras.php:140
+msgid "ago"
+msgstr ""
+
+#: inc/extras.php:145
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-actions.php:218
+msgid "Name"
+msgstr ""
+
+#: inc/template-actions.php:219
+msgid "Email"
+msgstr ""
+
+#: inc/template-actions.php:220
+msgid "Website"
+msgstr ""
+
+# @ _s
+#: inc/template-tags.php:109 inc/template-tags.php:198
+msgid "Leave a comment"
+msgstr ""
+
+# @ _s
+#: inc/template-tags.php:109 inc/template-tags.php:198
+msgid "1 Comment"
+msgstr ""
+
+# @ _s
+#: inc/template-tags.php:109 inc/template-tags.php:198
+msgid "% Comments"
+msgstr ""
+
+# @ _s
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:121 inc/template-tags.php:137
+#: inc/template-tags.php:184 inc/template-tags.php:190
+msgid ", "
+msgstr ""
+
+# @ _s
+#: inc/template-tags.php:123 inc/template-tags.php:186
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+# @ _s
+#: inc/template-tags.php:139 inc/template-tags.php:192
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:311
+msgid "Set social menu"
+msgstr ""
+
+# @ _s
+#: inc/template-tags.php:372
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+# @ _s
+#: inc/template-tags.php:379 template-parts/content-page.php:21
+#: template-parts/content-single.php:26
+msgid "Pages:"
+msgstr ""
+
+#: inc/template-tags.php:491
+msgid "Read More"
+msgstr ""
+
+#: inc/template-tags.php:503
+msgid "Previos"
+msgstr ""
+
+#: inc/template-tags.php:504
+msgid "Next"
+msgstr ""
+
+#: inc/template-tags.php:509
+msgid "Post navigation"
+msgstr ""
+
+# @ _s
+#: search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+# @ _s
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+# @ _s
+#: template-parts/content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+# @ _s
+#: template-parts/content-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+# @ _s
+#: template-parts/content-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-pagination.php:10
+#, php-format
+msgid "%s Prev"
+msgstr ""
+
+#: template-parts/content-pagination.php:11
+#, php-format
+msgid "Next %s"
+msgstr ""

@@ -1,0 +1,288 @@
+.widget {
+	margin: 0 0 30px;
+
+	/* Make sure select elements fit in widgets. */
+	select {
+		max-width: 100%;
+	}
+}
+
+.sidebar-widget {
+	padding: 30px;
+	border-radius: 5px;
+	@include box-shadow();
+	background: #fff;
+	@media ( max-width: 480px ) {
+		padding: 15px;
+	}
+	.widget-title {
+		text-transform: uppercase;
+		margin: -30px -30px 20px -30px;
+		border-bottom: 1px solid $color__background-hr;
+		padding: 20px 30px 15px;
+		text-transform: uppercase;
+		@include font-size(1.2);
+		@media ( max-width: 480px ) {
+			margin: -15px -15px 10px -15px;
+			padding: 10px 15px 5px;
+		}
+	}
+}
+
+.footer-widget {
+	.widget-title {
+		text-transform: uppercase;
+		@include font-size(1.2);
+		line-height: 1.2;
+		padding: 0 0 15px;
+		margin: 0 0 20px;
+		border-bottom: 1px solid $color__text-main;
+	}
+	input[type="text"],
+	input[type="email"],
+	input[type="url"],
+	input[type="password"],
+	input[type="search"],
+	input[type="number"],
+	input[type="date"],
+	input[type="datetime"],
+	input[type="datetime-local"],
+	input[type="month"],
+	input[type="tel"],
+	input[type="color"],
+	input[type="range"],
+	input[type="time"],
+	input[type="week"],
+	textarea,
+	select {
+		border-bottom: 1px solid rgba(0,0,0,.5);
+		background: rgba(0,0,0,.2);
+		&:focus {
+			border-bottom-color: $color__link;
+		}
+	}
+}
+
+/* Search widget. */
+.widget_search .search-submit {
+	display: none;
+}
+
+.widget_archive,
+.widget_categories,
+.widget_pages,
+.widget_meta,
+.widget_recent_comments,
+.widget_recent_entries,
+.widget_nav_menu {
+	ul {
+		padding: 0;
+		margin: 0;
+		li {
+			position: relative;
+			padding-left: 25px;
+			list-style: none;
+			a {
+				text-decoration: none;
+				color: $color__text-main;
+				&:hover {
+					color: $color__link;
+				}
+			}
+			&:before {
+				position: absolute;
+				left: 0;
+				padding: 0 0 0 2px;
+				top: 2px;
+				font-size: 16px;
+				line-height: 20px;
+				font-family: FontAwesome;
+				color: $color__link;
+			}
+		}
+	}
+}
+
+.widget_archive {
+	ul {
+		li {
+			font-weight: bold;
+			color: $color__text-alt;
+			a {
+				font-weight: normal;
+			}
+			&:before {
+				content: "\f073";
+			}
+		}
+	}
+	select {
+		width: 100%;
+	}
+}
+
+.widget_categories {
+	ul {
+		li {
+			font-weight: bold;
+			color: $color__text-alt;
+			a {
+				font-weight: normal;
+			}
+			&:before {
+				content: "\f07b";
+			}
+			li {
+				&:before {
+					content: "\f07c";
+				}
+			}
+		}
+	}
+	select {
+		width: 100%;
+	}
+}
+
+.widget_pages {
+	ul {
+		li {
+			&:before {
+				content: "\f15c";
+			}
+			li {
+				&:before {
+					content: "\f0f6";
+				}
+			}
+		}
+	}
+}
+
+.widget_meta {
+	ul {
+		li {
+			&:before {
+				content: "\f085";
+			}
+		}
+	}
+}
+
+.widget_recent_comments {
+	ul {
+		li {
+			a {
+				color: $color__link;
+				&:hover {
+					color: $color__link-hover;
+				}
+			}
+			.comment-author-link {
+				a {
+					font-weight: bold;
+					color: $color__text-main;
+					&:hover {
+						color: $color__secondary;
+					}
+				}
+			}
+			&:before {
+				content: "\f27a";
+			}
+		}
+	}
+}
+
+.widget_recent_entries {
+	ul {
+		li {
+			&:before {
+				content: "\f0f6";
+			}
+		}
+	}
+}
+
+.widget_nav_menu {
+	ul {
+		li {
+			&:before {
+				content: "\f0a9";
+			}
+			li {
+				&:before {
+					content: "\f18e";
+				}
+			}
+		}
+	}
+}
+
+.tagcloud {
+	a {
+		text-decoration: none;
+		display: inline-block;
+		margin: 0 1px 4px 0;
+		font-size: 16px !important;
+		font-size: 1rem !important;
+		padding: 5px 10px;
+		border-radius: 3px;
+		border: 1px solid $color__link;
+		&:hover {
+			color: $color__secondary;
+			border-color: $color__secondary;
+			.footer-widget & {
+				color: $color__text-main;
+				border-color: $color__text-main;
+			}
+		}
+	}
+}
+
+.widget_search {
+	.search-field {
+		width: 100%;
+		box-sizing: border-box;
+	}
+}
+
+.calendar_wrap {
+	table {
+		margin: 0;
+	}
+	tfoot {
+		a {
+			display: inline-block;
+			text-decoration: none;
+			margin: 5px 0;
+			padding: 4px 15px;
+			border: 1px solid $color__link;
+			border-radius: 3px;
+		}
+		td {
+			padding-left: 0;
+			padding-right: 0;
+			padding-bottom: 0;
+		}
+		#next {
+			text-align: right;
+		}
+	}
+	.footer-widget & {
+		table {
+			caption {
+				color: $color__text-main;
+				background: rgba(0,0,0,.5);
+			}
+			thead {
+				tr {
+					border-bottom: 2px solid rgba(0,0,0,.5);
+				}
+			}
+			tr {
+				border-top: 1px solid rgba(0,0,0,.5);
+			}
+		}
+	}
+}
