@@ -23,9 +23,10 @@
 				<br>
 				<?php
 				printf(
-					__( '%1$s WordPress Theme, &copy; 2016 <a href="%2$s" rel="nofollow">Crocoblock</a>.', 'renard' ),
+					__( '%1$s WordPress Theme, &copy; %3$s <a href="%2$s" rel="nofollow">Crocoblock</a>.', 'renard' ),
 					'Renard',
-					'https://crocoblock.com/'
+					'https://crocoblock.com/',
+					date( 'Y' )
 				);
 				?>
 			<?php } ?>
