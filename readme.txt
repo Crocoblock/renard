@@ -1,6 +1,6 @@
 === Renard ===
 
-Contributors: tefox
+Contributors: Crocoblock
 Tags: translation-ready, custom-background, theme-options, custom-menu, post-formats, threaded-comments
 
 Requires at least: 4.3
@@ -10,7 +10,7 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
-Renard theme by TeFox
+Renard theme by Crocoblock
 
 
 == Installation ==
@@ -32,6 +32,6 @@ Renard theme by TeFox
 * Magnific Popup - http://dimsemenov.com/plugins/magnific-popup/ licensed under MIT License (MIT) Copyright (c) 2015 Dmitry Semenov
 * Slider Pro - by bqworks, http://bqworks.com/slider-pro/, licensed under MIT License (MIT)
 * other CSS and JS files licensed under GPLv2+
-* The image screenshot.png created by teFox team and licensed under GPL v2+
+* The image screenshot.png created by Crocoblock team and licensed under GPL v2+
 * Images used for theme screenshot are licensed under Creative Commons Zero (CC0) license. Sources - https://www.pexels.com/photo/summer-dress-hat-woman-6980/, https://www.pexels.com/photo/skyline-buildings-new-york-skyscrapers-2324/, https://www.pexels.com/photo/bokeh-night-lights-city-9044/
 * Google fonts used in theme released under the Apache License, version 2.0 and SIL Open Font License 1.1

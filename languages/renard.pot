@@ -1,10 +1,11 @@
 # Copyright (C) 2015 Automattic
 # This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Renard\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
-"POT-Creation-Date: 2016-06-26 17:16+0200\n"
+"POT-Creation-Date: 2019-10-04 12:30+0300\n"
 "PO-Revision-Date: 2016-06-26 17:16+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -12,41 +13,35 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.6\n"
+"X-Generator: Poedit 2.1.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-Basepath: ../\n"
+"X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e;_x;esc_attr_e;_n;esc_html_e;esc_html__;"
 "esc_attr__\n"
 "X-Poedit-SearchPath-0: .\n"
 
-# @ _s
 #: 404.php:18
 msgid "Oops! That page can&rsquo;t be found."
 msgstr ""
 
-# @ _s
 #: 404.php:22
 msgid ""
 "It looks like nothing was found at this location. Maybe try one of the links "
 "below or a search?"
 msgstr ""
 
-# @ _s
 #: comments.php:40 comments.php:62
 msgid "Comment navigation"
 msgstr ""
 
-# @ _s
 #: comments.php:43 comments.php:65
 msgid "Older Comments"
 msgstr ""
 
-# @ _s
 #: comments.php:44 comments.php:66
 msgid "Newer Comments"
 msgstr ""
 
-# @ _s
 #: comments.php:78
 msgid "Comments are closed."
 msgstr ""
@@ -59,7 +54,6 @@ msgstr ""
 msgid "http://wordpress.org/"
 msgstr ""
 
-# @ _s
 #: footer.php:29
 #, php-format
 msgid "Proudly powered by %s"
@@ -67,11 +61,12 @@ msgstr ""
 
 #: footer.php:33
 #, php-format
-msgid "Theme %1$s by <a href=\"%2$s\" rel=\"nofollow\">Tefox</a>."
+msgid ""
+"%1$s WordPress Theme, &copy; 2016 <a href=\"%2$s\" rel=\"nofollow"
+"\">Crocoblock</a>."
 msgstr ""
 
-# @ _s
-#: functions.php:50 functions.php:88 header.php:49
+#: functions.php:50 functions.php:88 header.php:50
 msgid "Primary Menu"
 msgstr ""
 
@@ -79,29 +74,27 @@ msgstr ""
 msgid "Social Menu"
 msgstr ""
 
-# @ _s
-#: functions.php:115
+#: functions.php:118
 msgid "Sidebar"
 msgstr ""
 
-#: functions.php:125
+#: functions.php:128
 msgid "Footer Sidebar 1"
 msgstr ""
 
-#: functions.php:135
+#: functions.php:138
 msgid "Footer Sidebar 2"
 msgstr ""
 
-#: functions.php:145
+#: functions.php:148
 msgid "Footer Sidebar 3"
 msgstr ""
 
-#: functions.php:154
+#: functions.php:157
 msgid "Footer Sidebar 4"
 msgstr ""
 
-# @ _s
-#: header.php:25
+#: header.php:26
 msgid "Skip to content"
 msgstr ""
 
@@ -153,7 +146,7 @@ msgstr ""
 msgid "Show/hide slider banner"
 msgstr ""
 
-#: inc/customizer.php:149 inc/customizer.php:276 inc/template-actions.php:98
+#: inc/customizer.php:149 inc/customizer.php:276 inc/template-actions.php:149
 msgid "Read"
 msgstr ""
 
@@ -245,7 +238,7 @@ msgstr ""
 msgid "About Image"
 msgstr ""
 
-#: inc/customizer.php:364 inc/template-actions.php:274
+#: inc/customizer.php:364 inc/template-actions.php:315
 msgid "Hello! And welcome to my personal website!"
 msgstr ""
 
@@ -269,126 +262,108 @@ msgstr ""
 msgid "latin,latin-ext"
 msgstr ""
 
-#: inc/extras.php:115
+#: inc/extras.php:126
 msgid "Pingback:"
 msgstr ""
 
-#: inc/extras.php:115 inc/template-tags.php:202
+#: inc/extras.php:126 inc/template-tags.php:202
 msgid "Edit"
 msgstr ""
 
-#: inc/extras.php:140
+#: inc/extras.php:151
 msgid "ago"
 msgstr ""
 
-#: inc/extras.php:145
+#: inc/extras.php:156
 msgid "Your comment is awaiting moderation."
 msgstr ""
 
-#: inc/template-actions.php:218
+#: inc/template-actions.php:273
 msgid "Name"
 msgstr ""
 
-#: inc/template-actions.php:219
+#: inc/template-actions.php:274
 msgid "Email"
 msgstr ""
 
-#: inc/template-actions.php:220
+#: inc/template-actions.php:275
 msgid "Website"
 msgstr ""
 
-# @ _s
 #: inc/template-tags.php:109 inc/template-tags.php:198
 msgid "Leave a comment"
 msgstr ""
 
-# @ _s
 #: inc/template-tags.php:109 inc/template-tags.php:198
 msgid "1 Comment"
 msgstr ""
 
-# @ _s
 #: inc/template-tags.php:109 inc/template-tags.php:198
 msgid "% Comments"
 msgstr ""
 
-# @ _s
-#. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:121 inc/template-tags.php:137
 #: inc/template-tags.php:184 inc/template-tags.php:190
 msgid ", "
 msgstr ""
 
-# @ _s
 #: inc/template-tags.php:123 inc/template-tags.php:186
 #, php-format
 msgid "Posted in %1$s"
 msgstr ""
 
-# @ _s
 #: inc/template-tags.php:139 inc/template-tags.php:192
 #, php-format
 msgid "Tagged %1$s"
 msgstr ""
 
-#: inc/template-tags.php:311
-msgid "Set social menu"
-msgstr ""
-
-# @ _s
-#: inc/template-tags.php:372
+#: inc/template-tags.php:329
 #, php-format
 msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
-# @ _s
-#: inc/template-tags.php:379 template-parts/content-page.php:21
+#: inc/template-tags.php:336 template-parts/content-page.php:21
 #: template-parts/content-single.php:26
 msgid "Pages:"
 msgstr ""
 
-#: inc/template-tags.php:491
+#: inc/template-tags.php:448
 msgid "Read More"
 msgstr ""
 
-#: inc/template-tags.php:503
+#: inc/template-tags.php:464
 msgid "Previos"
 msgstr ""
 
-#: inc/template-tags.php:504
+#: inc/template-tags.php:465
 msgid "Next"
 msgstr ""
 
-#: inc/template-tags.php:509
+#: inc/template-tags.php:470
 msgid "Post navigation"
 msgstr ""
 
-# @ _s
 #: search.php:18
 #, php-format
 msgid "Search Results for: %s"
 msgstr ""
 
-# @ _s
 #: template-parts/content-none.php:14
 msgid "Nothing Found"
 msgstr ""
 
-# @ _s
 #: template-parts/content-none.php:20
 #, php-format
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
-# @ _s
 #: template-parts/content-none.php:24
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
 msgstr ""
 
-# @ _s
 #: template-parts/content-none.php:29
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "

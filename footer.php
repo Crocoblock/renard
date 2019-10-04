@@ -30,9 +30,9 @@
 				<br>
 				<?php
 					printf(
-						__( '%1$s WordPress Theme, &copy; 2016 <a href="%2$s" rel="nofollow">Tefox</a>.', 'renard' ),
+						__( '%1$s WordPress Theme, &copy; 2016 <a href="%2$s" rel="nofollow">Crocoblock</a>.', 'renard' ),
 						'Renard',
-						'http://www.tefox.net/'
+						'https://crocoblock.com/'
 					);
 				?>
 			<?php } ?>

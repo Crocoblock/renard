@@ -1,8 +1,8 @@
 /*!
 Theme Name: Renard
-Theme URI: http://www.tefox.net/product/renard/
-Author: teFox
-Author URI: http://www.tefox.net/
+Theme URI: https://crocoblock.com/
+Author: Crocoblock
+Author URI: https://crocoblock.com/
 Description: Renard is the lightweight WordPress theme that is 100% responsive with full capabilities to be customized. Clean material-like design with the full-width slider helps you to create all the representation of you in the web page. Stay cool and have your time to chill.
 Version: 1.0.3
 License: GNU General Public License v2 or later
@@ -336,7 +336,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: #f1f1f1
+  background: #f1f1f1;
   /* Fallback for when there is no custom background color defined. */ }
 
 blockquote, q {
@@ -373,7 +373,7 @@ dd {
 img {
   height: auto;
   /* Make sure images are scaled correctly. */
-  max-width: 100%
+  max-width: 100%;
   /* Adhere to container width. */ }
 
 table {
@@ -427,8 +427,7 @@ select {
   border-radius: 0;
   padding: 5px 10px;
   outline: none;
-  -webkit-transition: all 200ms linear;
-          transition: all 200ms linear;
+  transition: all 200ms linear;
   box-shadow: 0 0 0 0 #4caf50; }
   input[type="text"]:focus,
   input[type="email"]:focus,
@@ -466,8 +465,7 @@ textarea {
 --------------------------------------------------------------*/
 a {
   color: #4caf50;
-  -webkit-transition: all 200ms linear;
-          transition: all 200ms linear; }
+  transition: all 200ms linear; }
   a:visited {
     color: #4caf50; }
   a:hover, a:focus, a:active {
@@ -495,8 +493,7 @@ button {
   text-decoration: none;
   text-transform: uppercase;
   border: none;
-  -webkit-transition: all 200ms linear;
-          transition: all 200ms linear; }
+  transition: all 200ms linear; }
   .button:visited,
   .read-more:visited,
   input[type="submit"]:visited,
@@ -565,10 +562,8 @@ button {
       visibility: hidden;
       opacity: 0;
       z-index: 999;
-      -webkit-transition: 200ms linear;
-              transition: 200ms linear;
-      -webkit-transition-property: top, opacity, visibility;
-              transition-property: top, opacity, visibility;
+      transition: 200ms linear;
+      transition-property: top, opacity, visibility;
       background: #fff;
       padding: 10px 0;
       margin: 0;
@@ -674,8 +669,7 @@ button {
       background: #4caf50;
       position: absolute;
       bottom: 0;
-      -webkit-transition: all 200ms ease-out;
-              transition: all 200ms ease-out;
+      transition: all 200ms ease-out;
       opacity: 0; }
       @media (max-width: 600px) {
         .main-navigation a:before {
@@ -843,7 +837,7 @@ button {
     text-decoration: none;
     top: 5px;
     width: auto;
-    z-index: 100000
+    z-index: 100000;
     /* Above WP toolbar. */ }
 
 /*--------------------------------------------------------------
@@ -895,7 +889,7 @@ button {
 # Widgets
 --------------------------------------------------------------*/
 .widget {
-  margin: 0 0 30px
+  margin: 0 0 30px;
   /* Make sure select elements fit in widgets. */ }
   .widget select {
     max-width: 100%; }
@@ -1202,8 +1196,7 @@ button {
           text-align: center;
           border-radius: 20px; } }
       .follow-list-items .menu-item a:after {
-        -webkit-transition: none;
-                transition: none;
+        transition: none;
         content: "";
         box-shadow: 0 0 0 white;
         left: 0;
@@ -1214,8 +1207,7 @@ button {
         border-radius: 20px;
         visibility: hidden; }
       .follow-list-items .menu-item a:hover:after {
-        -webkit-transition: all 200ms linear;
-                transition: all 200ms linear;
+        transition: all 200ms linear;
         box-shadow: 0 0 40px rgba(255, 255, 255, 0);
         visibility: visible; }
       .follow-list-items .menu-item a:hover, .follow-list-items .menu-item a:focus, .follow-list-items .menu-item a:active, .follow-list-items .menu-item a:visited {
@@ -1619,8 +1611,7 @@ button {
       -ms-transform: scale(0);
           transform: scale(0);
   opacity: 0;
-  -webkit-transition: all 200ms linear;
-          transition: all 200ms linear; }
+  transition: all 200ms linear; }
   .link-marker:after {
     content: "+"; }
 
@@ -1942,7 +1933,6 @@ button {
 
 .sp-fade-full-screen {
   opacity: 0;
-  -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s; }
 
 .slider-pro:hover .sp-fade-full-screen {
@@ -1990,7 +1980,6 @@ button {
 
 .sp-fade-arrows {
   opacity: 0;
-  -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s; }
 
 .sp-slides-container:hover .sp-fade-arrows {
@@ -2014,8 +2003,7 @@ button {
   width: 50px;
   height: 50px;
   cursor: pointer;
-  -webkit-transition: all 200ms linear;
-          transition: all 200ms linear; }
+  transition: all 200ms linear; }
   .sp-arrow.sp-previous-arrow:before, .sp-arrow.sp-next-arrow:before {
     font-family: FontAwesome;
     font-size: 30px;
@@ -2053,7 +2041,6 @@ button {
 
 .sp-fade-thumbnail-arrows {
   opacity: 0;
-  -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s; }
 
 .sp-thumbnails-container:hover .sp-fade-thumbnail-arrows {
