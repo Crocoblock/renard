@@ -1324,8 +1324,11 @@ button {
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
-.site-content {
-  padding: 30px 0 0 0; }
+.site-content > .container {
+  padding-top: 30px; }
+
+.page-header .taxonomy-description {
+  margin-bottom: 30px; }
 
 .sticky {
   display: block; }
