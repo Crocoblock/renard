@@ -88,6 +88,9 @@ function renard_setup() {
 		'primary' => esc_html__( 'Primary Menu', 'renard' ),
 		'social'  => esc_html__( 'Social Menu', 'renard' ),
 	) );
+
+	// Add theme support for selective refresh for widgets.
+	add_theme_support( 'customize-selective-refresh-widgets' );
 }
 endif; // renard_setup
 add_action( 'after_setup_theme', 'renard_setup' );

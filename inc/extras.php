@@ -104,6 +104,17 @@ function renard_body_classes( $classes ) {
 add_filter( 'body_class', 'renard_body_classes' );
 
 /**
+ * Support `wp_body_open` action, available since WordPress 5.2.
+ */
+function renard_body_open() {
+	if ( function_exists( 'wp_body_open' ) ) {
+		wp_body_open();
+	} else {
+		do_action( 'wp_body_open' );
+	}
+}
+
+/**
  * Custom comment output
  */
 function renard_comment( $comment, $args, $depth ) {
