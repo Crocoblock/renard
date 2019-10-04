@@ -304,7 +304,7 @@ function renard_close_comments_fields_wrap() {
  */
 function renard_about_box() {
 
-	$is_enabled = renard_get_option( 'about_enabled', false );
+	$is_enabled = renard_get_option( 'about_enabled', true );
 
 	if ( ! $is_enabled ) {
 		return;
