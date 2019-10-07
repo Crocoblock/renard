@@ -187,16 +187,20 @@ add_action( 'widgets_init', 'renard_widgets_init' );
  */
 function renard_scripts() {
 
+	$template      = get_template();
+	$theme_obj     = wp_get_theme( $template );
+	$theme_version = $theme_obj->get( 'Version' );
+
 	$base = get_template_directory_uri();
 
 	wp_enqueue_style( 'renard-fonts', renard_fonts_url() );
 	wp_enqueue_style( 'font-awesome', $base . '/css/font-awesome.min.css', false, '4.5.0' );
-	wp_enqueue_style( 'renard-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'renard-style', get_stylesheet_uri(), false, $theme_version );
 
 	wp_enqueue_script( 'slider-pro', $base . '/js/jquery.sliderpro.min.js', array( 'jquery' ), '1.2.4', true );
 	wp_enqueue_script( 'magnific-popup', $base . '/js/jquery.magnific-popup.min.js', array( 'jquery' ), '1.1.0', true );
-	wp_enqueue_script( 'renard-scripts', $base . '/js/script.js', array( 'jquery', 'hoverIntent' ), '1.0.0', true );
-	wp_enqueue_script( 'renard-skip-link-focus-fix', $base . '/js/skip-link-focus-fix.js', array(), '1.0.0', true );
+	wp_enqueue_script( 'renard-scripts', $base . '/js/script.js', array( 'jquery', 'hoverIntent' ), $theme_version, true );
+	wp_enqueue_script( 'renard-skip-link-focus-fix', $base . '/js/skip-link-focus-fix.js', array(), $theme_version, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
