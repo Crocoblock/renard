@@ -1,0 +1,70 @@
+/*!
+Renard Editor Styles
+*/
+/** === Content Width === */
+.wp-block {
+  max-width: calc(100% - 60px); }
+  @media (min-width: 600px) {
+    .wp-block {
+      max-width: 1170px; } }
+  .wp-block .wp-block {
+    width: 100%; }
+
+/** === Base Typography === */
+body {
+  color: #898a8e;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.5; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  clear: both;
+  margin: 0 0 24px;
+  padding: 0; }
+
+h1 {
+  font-size: 32px;
+  font-size: 2rem;
+  line-height: 1.2; }
+
+h2 {
+  font-size: 28px;
+  font-size: 1.75rem;
+  line-height: 1.2; }
+
+h3 {
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 1.2; }
+
+h4 {
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 1.2; }
+
+h5 {
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.5; }
+
+h5 {
+  font-size: 12px;
+  font-size: 0.75rem;
+  line-height: 1.5; }
+
+p {
+  margin: 0 0 24px; }
+
+a {
+  color: #4caf50;
+  transition: all 200ms linear; }
+  a:visited {
+    color: #4caf50; }
+  a:hover, a:focus, a:active {
+    color: #357a38; }
+  a:focus {
+    outline: thin dotted; }
+  a:hover, a:active {
+    outline: 0; }
