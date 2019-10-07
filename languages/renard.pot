@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Renard\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
-"POT-Creation-Date: 2019-10-04 12:30+0300\n"
+"POT-Creation-Date: 2019-10-07 17:08+0300\n"
 "PO-Revision-Date: 2016-06-26 17:16+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -19,16 +19,6 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e;_x;esc_attr_e;_n;esc_html_e;esc_html__;"
 "esc_attr__\n"
 "X-Poedit-SearchPath-0: .\n"
-
-#: 404.php:18
-msgid "Oops! That page can&rsquo;t be found."
-msgstr ""
-
-#: 404.php:22
-msgid ""
-"It looks like nothing was found at this location. Maybe try one of the links "
-"below or a search?"
-msgstr ""
 
 #: comments.php:40 comments.php:62
 msgid "Comment navigation"
@@ -50,23 +40,7 @@ msgstr ""
 msgid "Comment*"
 msgstr ""
 
-#: footer.php:29
-msgid "http://wordpress.org/"
-msgstr ""
-
-#: footer.php:29
-#, php-format
-msgid "Proudly powered by %s"
-msgstr ""
-
-#: footer.php:33
-#, php-format
-msgid ""
-"%1$s WordPress Theme, &copy; 2016 <a href=\"%2$s\" rel=\"nofollow"
-"\">Crocoblock</a>."
-msgstr ""
-
-#: functions.php:50 functions.php:88 header.php:50
+#: functions.php:50 functions.php:88 template-parts/header.php:31
 msgid "Primary Menu"
 msgstr ""
 
@@ -74,23 +48,23 @@ msgstr ""
 msgid "Social Menu"
 msgstr ""
 
-#: functions.php:118
+#: functions.php:134
 msgid "Sidebar"
 msgstr ""
 
-#: functions.php:128
+#: functions.php:144
 msgid "Footer Sidebar 1"
 msgstr ""
 
-#: functions.php:138
+#: functions.php:154
 msgid "Footer Sidebar 2"
 msgstr ""
 
-#: functions.php:148
+#: functions.php:164
 msgid "Footer Sidebar 3"
 msgstr ""
 
-#: functions.php:157
+#: functions.php:173
 msgid "Footer Sidebar 4"
 msgstr ""
 
@@ -343,7 +317,17 @@ msgstr ""
 msgid "Post navigation"
 msgstr ""
 
-#: search.php:18
+#: template-parts/404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: template-parts/404.php:20
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: template-parts/archive.php:28
 #, php-format
 msgid "Search Results for: %s"
 msgstr ""
@@ -378,4 +362,20 @@ msgstr ""
 #: template-parts/content-pagination.php:11
 #, php-format
 msgid "Next %s"
+msgstr ""
+
+#: template-parts/footer.php:22
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: template-parts/footer.php:22
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: template-parts/footer.php:26
+#, php-format
+msgid ""
+"%1$s WordPress Theme, &copy; %3$s <a href=\"%2$s\" rel=\"nofollow"
+"\">Crocoblock</a>."
 msgstr ""
