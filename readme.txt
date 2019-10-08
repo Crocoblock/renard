@@ -3,8 +3,8 @@
 Contributors: Crocoblock
 Tags: translation-ready, custom-background, theme-options, custom-menu, post-formats, threaded-comments
 
-Requires at least: 4.7
-Tested up to: 4.2
+Requires at least: 4.3
+Tested up to: 5.2
 Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
